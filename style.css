@@ -144,4 +144,8 @@ button:hover{
         font-size: 30%;
     }
 
+.game{
+    height: 70rem;
+    width: 40rem;
+}
 }

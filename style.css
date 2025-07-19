@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+
+*{
+   margin: 0;
+  padding: 0;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  box-sizing: border-box;
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+
+
+}
+.reset{
+    font-size: 5rem;
+    justify-self: flex-end;
+    margin: 0 2rem;
+    object-fit: cover;
+
+
+}
+.main-heading{
+    font-size: 5rem;
+    text-align: center;
+
+}
+.game{
+    border: solid black 1px;
+    height: 70rem;
+    width: 60rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 2px 2px 30px 10px black;
+    border-radius: 5px;
+}
+.main{
+    display: flex;
+    width: 100%;
+    background-color: beige;
+    margin-right: 2rem;
+    padding: 0;
+   border: solid black 2px;
+}
+.div-header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    font-size: 2.5rem;
+}
+ .main-left{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 20rem;
+ }
+ .main-middle{
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    flex-direction: row;
+ }
+  .main-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 20rem;
+ }
+
+
+button{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 100%;
+    margin: 1rem;
+    font-size: 6rem;
+    transition: box-shadow 0.5s ease-in-out;
+}
+button:hover{
+   box-shadow: 0 4px 7px 3px black;
+
+}
+.message{
+    text-align: center;
+    font-size: 4rem;
+}
+.score{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    width: 80%;
+    align-self:center ;
+    height: 4rem;
+    text-align: center;
+    border-radius: 7px;
+    box-shadow: 0 2px 5px black;
+ 
+}
+
+.score h4{
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px){
+
+    html{
+        font-size: 54%;
+    }
+}
+
+@media (max-width: 600px){
+    html{
+        font-size: 38%;
+    }
+
+}
+
+@media (max-width: 430px){
+    html{
+        font-size: 30%;
+    }
+
+}

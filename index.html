@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rock-Paper</title>
+</head>
+
+<body>
+    <div class="game">
+        <div> 
+            <button class="reset">🔄 </button>
+            <h1 class="main-heading">Choose </h1>
+
+        </div>
+     <div class="div-header">
+            <h3>USER</h3>
+            <h3>BATTLE</h3>
+            <h3>CPU</h3>
+        </div>
+        <div class="main">
+       
+        <div class="main-left">
+            <button onclick="play ('rock')"> ✊</button> 
+            <button onclick="play ('paper')"> ✋</button>
+            <button onclick="play ('scissors')"> ✌️</button>
+        </div>
+        <div class="main-middle">
+            <button id="user"></button>
+            <button id="cpu"></button>
+        </div>
+        <div class="main-right">
+            <button> ✊</button>
+            <button> ✋</button>
+            <button> ✌️</button>
+        </div>
+    </div>
+        <div>
+            <h2 class="message">Good Luck!🍀</h2>
+        </div>
+        <div class="score">
+            <div>
+                <h4>Won:<span id="won"> 0</span></h4>
+            </div>
+            <div>
+                <h4>Tie: <span id="tie"> 0</span></h4>
+            </div>
+            <div>
+                <h4>Lost: <span id="lost"> 0</span></h4>
+            </div>
+
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>

@@ -37,7 +37,7 @@ if (userChoice === cpuChoice){
     document.querySelector('.message').textContent = '❌ You lost!';
     lost++; // lost++ = lost + 1, lost = 0 + 1 , lost=1//
     document.getElementById('lost').textContent=lost;
-    document.querySelector('.main').style.backgroundColor = 'red';
+    document.querySelector('.main').style.backgroundColor = '#c7080c';
 }}
 
  document.querySelector('.reset').addEventListener('click',function(){
@@ -47,7 +47,7 @@ if (userChoice === cpuChoice){
     document.getElementById('tie').textContent=0;
     document.getElementById('won').textContent=0; // reset back to default without reloading web//
     document.getElementById('lost').textContent=0;
-    document.querySelector('.message').textContent = 'Good luck!';
+    document.querySelector('.message').textContent = 'Good Luck!🍀';
     document.querySelector('.main').style.backgroundColor = 'white';
     document.getElementById('user').textContent= '';
     document.getElementById('cpu').textContent= '';

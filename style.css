@@ -31,7 +31,7 @@ body{
 
 }
 .reset{
-    font-size: 5rem;
+    font-size: 5.5rem;
     justify-self: flex-end;
     margin: 0 2rem;
     object-fit: cover;
@@ -39,7 +39,7 @@ body{
 
 }
 .main-heading{
-    font-size: 5rem;
+    font-size: 6.5rem;
     text-align: center;
 
 }
@@ -67,7 +67,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin: 0 2rem;
-    font-size: 2.5rem;
+    font-size: 3rem;
 }
  .main-left{
     display: flex;
@@ -100,6 +100,7 @@ button{
     transition: box-shadow 0.5s ease-in-out;
     background-color: white;
     border: 3px solid black;
+  
 }
 button:hover{
    box-shadow: 0 4px 7px 3px black;
@@ -125,7 +126,7 @@ button:hover{
 }
 
 .score h4{
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: bold;
 }
 

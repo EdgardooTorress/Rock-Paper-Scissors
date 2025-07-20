@@ -7,13 +7,13 @@ let lost = 0;
 // repeat function every time user click choices//
 function play(userChoice){ //userChoice is taking from onclick HTML//
     const choices = ['rock', 'paper', 'scissors'];
-    const emojis = {
+    const emojis = { // Object to store key and value//
         rock:'✊',
         paper:'✋',
         scissors:'✌️'
     };
     document.getElementById('user').textContent= emojis[userChoice];
-    const cpuChoice = choices[Math.trunc(Math.random() * 3)];
+    const cpuChoice = choices[Math.trunc(Math.random() * 3)]; //make cpu take ramdon value//
     document.getElementById('cpu').textContent= emojis[cpuChoice];
 
     console.log(cpuChoice) // print cpuchoice in console//
